@@ -14,9 +14,10 @@ class Solution
     {
     	//code here.
     	sort(A,A+N);
-    	int mx=A[N-1];
-    	int mn=A[0];
-    	int sum=mx+mn;
+    // 	for(auto it:A)
+    // 	    cout<<it<<" ";
+    	int sum=A[0]+A[N-1];
+    // 	cout<<endl;
     	return sum;
     }
 
